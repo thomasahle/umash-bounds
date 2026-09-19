@@ -1,70 +1,45 @@
-# UMASH lane and inherited classic proofs
+# Lean development: `ProvenHashes.UMASH`
 
-This workspace is the **partial UMASH formalization**. Start with
-[README_UMASH.md](README_UMASH.md) and the supplied `STATUS.md` obligation ledger.
-Use `bash reproduce.sh` on the Xeon (CPU set 56–63). The material below documents
-the inherited classic proof modules and is not a statement about UMASH completion.
+A complete, buildable snapshot of the Lean 4 / Mathlib project that
+machine-checks the UMASH collision bounds in this repository, taken at proof
+commit `115d1ee18b680645aeaed1885d77033fa6d1558d` of the proof lane
+(2026-09-19). Start with:
 
-## Inherited classic polynomial hash proofs
+- [`STATUS.md`](STATUS.md): every headline theorem with its exact Lean
+  statement, module and `#print axioms` line; which published UMASH claims are
+  machine-checked and which remain paper proofs.
+- [`REPRODUCE.md`](REPRODUCE.md): toolchain, `lake exe cache get`,
+  `lake build`, and the audit commands.
+- [`LANE_REPORT.md`](LANE_REPORT.md): the proof lane's own round report
+  (reporting commit `863bcda`), kept for provenance.
 
-Lean **4.24.0**, Mathlib **v4.24.0**, commit
-`f897ebcf72cd16f89ab4577d0c826cd14afaafc7`.
+## Layout
 
-The project proves the bounds for ideal-key byte-string families, including
-unequal lengths and partial final blocks. See [the audit](../AUDIT_CLASSIC.md)
-and [formal status](../LEAN_CLASSIC_STATUS.md) for the exact domain and the
-distinction from the 64-bit-seeded OpenSSL wrappers.
+| Path | Content |
+| --- | --- |
+| `ProvenHashes/` | 741 Lean modules (71,706 lines). `UMASHModel.lean` defines the literal hash; `UMASHObligations.lean`, `UMASHCorrectedObligations.lean`, `UMASHSharpObligations.lean`, `UMASHContinuationObligations.lean`, `UMASHPrimaryHandoffObligations.lean` define the named propositions (never assumed); the remaining modules prove them. `Classic*.lean`, `Probability.lean`, `Polynomial.lean` are the inherited finite-probability and polynomial core (with GHASH/Poly1305 examples). |
+| `ProvenHashes.lean` | Library root: 101 imports that reach every module transitively. |
+| `lakefile.toml`, `lake-manifest.json`, `lean-toolchain` | Build configuration; Mathlib pinned to `f897ebcf72cd16f89ab4577d0c826cd14afaafc7`, Lean `v4.24.0`. |
+| `AuditAll.lean`, `AuditAll.txt`, `Verification.json`, `SourceHashes.json`, `Toolchain.txt` | The axiom audit as run at the snapshot commit: 1585 theorems and lemmas, only `propext`, `Classical.choice`, `Quot.sound`. |
+| `MakeAudit.py`, `VerifyAudit.py` | Generate and check the audit. |
+| `logs/` | The final root build log (`handoff-build.txt`) and the short reproduction records. |
+| `Part2Checkpoints.json.xz`, `handoff-checkpoint-logs.tar.gz`, `part2-build-logs.tar.gz`, `*Checkpoints*.json`, `*Coverage.json`, `*Preservation.json`, `CheckpointArchive.json` | Per-lemma build checkpoints and the preservation checks of earlier baselines. |
+| `CheckModel.lean`, `check_model.py`, `sources/umash_reference.py` | Smoke comparison of the Lean model with the reference Python implementation (not part of the proofs). |
+| `sources/` | Reference material used by the lane: the UMASH reference code, the corrected proof and verdict notes, and the classic-hash sources. |
+| `COMPARISON.md`, `DEFECTS.md`, `HANDOFF_ROUND_NOTES.md`, `HANDOFF_ROUND2_NOTES.md`, `GOAL_ROUND*_NOTES.md`, `ROUND2_PROOFS.md`, `LEAN_UMASH*_STATUS.md`, `README_UMASH.md` | The lane's working notes and earlier status ledgers, in chronological order. They are historical: statements such as "the two requested endpoints remain unproved" describe the state when each was written. `STATUS.md` is authoritative. |
 
-| Module | Result |
-|---|---|
-| `ClassicCore.lean` | Positive-power polynomials, Horner evaluation, root counts on restricted keys, union over explicit field targets, averaging out a pad |
-| `ClassicBytes.lean` | Actual `List (Fin 256)` inputs, 16-byte chunk parser and reconstruction, ceiling block count, byte and marked-byte encoding injectivity |
-| `ClassicGHASH.lean` | Big-endian right-zero padding and standard length block; encoding injectivity; `(n+1)/2^128` AXU and collision bounds over `GaloisField 2 128` |
-| `ClassicPrimes.lean` | Kernel-checked Lucas certificate for `2^130−5` |
-| `ClassicPoly1305.lean` | Clamped key space of exactly `2^106` values; marked encoding; four representatives per projected residue; eight differential targets; seven collision targets; `(r,s)` tag bound |
-| `Probability.lean`, `Polynomial.lean` | Reused ProvenHashes finite probability and root-count core |
+## Headline theorems
 
-GHASH takes a `Wire : Fin (2^128) ≃ GaloisField 2 128` parameter. The bounds
-hold for **every** such bijection, so they do not depend on selecting one
-polynomial-basis byte convention. Integer bytes and the length block are fully
-encoded in the source, with injectivity proved. `Wire` is not an assumption
-that the message encoding is injective. This project does not verify the
-concrete GCM reduction routine or OpenSSL machine code.
+| Theorem | Module |
+| --- | --- |
+| `published128 : Published128` | `ProvenHashes/UMASHPublishedFingerprint.lean` |
+| `certified_all_pairs64`, `certified_all_pairs64_iid`, `certified_all_pairs128`, `corrected_linear64`, `corrected_linear128` | `ProvenHashes/UMASHCertified.lean` |
+| `joint_enh_only_bound`, `open_enh_only_sharp` | `ProvenHashes/UMASHJointClosure.lean` |
+| `joint_phenh_sharp`, `joint_phenh_iid_lt90`, `joint_phenh_distinct_lt90` | `ProvenHashes/UMASHPHENHSharp.lean` |
+| `open_phenh_sharp` | `ProvenHashes/UMASHOpenPHENH.lean` |
+| `reference_swap_collision`, `reference_swap_lower_bound` | `ProvenHashes/UMASHReferenceSwap.lean`, `UMASHReferenceSwapProbability.lean` |
+| `published64_of_primary_handoff` (conditional) | `ProvenHashes/UMASHPrimaryHandoffAssembly.lean` |
+| `certified64_3125_of_ph`, `certified128_3125_of_ph` (conditional) | `ProvenHashes/UMASHSharpOnePremise.lean` |
 
-On the designated Xeon:
-
-```sh
-cd <work>/lean-classic
-bash build.sh
-```
-
-The script uses `taskset -c 72-79`, `nice -n 10`, and `LEAN_NUM_THREADS=8`.
-It builds the library, regenerates `AuditAll.lean`, checks every local theorem
-and lemma with `#print axioms`, rejects any extra axiom or admitted proof,
-and writes the verification records. All successful reports permit only
-`propext`, `Classical.choice`, and `Quot.sound`.
-
-The remote workspace reuses the already downloaded Mathlib packages through
-`.lake/packages -> <work>/lean-hash/lean/.lake/packages`. The local source
-mirror intentionally omits `.lake`, compiled binaries, and that machine-specific
-symlink. For a fresh Linux checkout, install the pinned Lean toolchain, fetch
-dependencies with `lake update`, and obtain Mathlib's matching cache with
-`lake exe cache get` before building. Retain the supplied dependency revision;
-adapt CPU affinity only if using a different authorized machine.
-
-Verification artifacts:
-
-- [Build log](Build.txt)
-- [All theorem types and axiom reports](AuditAll.txt)
-- [Machine-readable verification result](Verification.json)
-- [Toolchain identity](Toolchain.txt)
-- [Source SHA-256 manifest](SourceHashes.json)
-
-`MakePrimes.py` can regenerate the explicit certificate using SymPy, but is
-not needed for builds. Python discovers witnesses; Lean's kernel checks the
-generated proof. No Python result or native evaluation axiom is trusted.
-
-`CheckSeededGHASH.py` is a separate, small executable check. It constructs a
-fixed pair colliding at seed zero and compares its independently computed
-GHASH relation with OpenSSL GMAC. [The recorded result](SeededGHASH.json)
-supports the wrapper audit; it is not a Lean proof or a timing benchmark.
+Placeholders: `<xeon>` in the notes and scripts stands for the lane's build
+host and its workspace root.

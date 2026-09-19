@@ -1,3 +1,0 @@
-logs/UMASHShortProbability-checkpoint-4.txt 0
-logs/UMASHShortProbability-checkpoint-5.txt 0
-logs/UMASHShortProbability-checkpoint-6.txt 0

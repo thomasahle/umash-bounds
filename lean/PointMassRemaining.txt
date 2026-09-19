@@ -1,3 +1,0 @@
-logs/UMASHENHPointMass-checkpoint-4.txt 0
-logs/UMASHENHPointMass-checkpoint-5.txt 0
-logs/UMASHENHPointMass-checkpoint-6.txt 0

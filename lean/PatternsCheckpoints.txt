@@ -1,3 +1,0 @@
-logs/UMASHPatterns-checkpoint-1.txt 0
-logs/UMASHPatterns-checkpoint-2.txt 0
-logs/UMASHPatterns-checkpoint-3.txt 0

@@ -1,0 +1,31 @@
+{
+  "result": "PASS",
+  "theorems_audited": 1530,
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "sorry_admit_native_decide_custom_axioms": false,
+  "unsafe_declarations": false
+}
+{
+  "result": "PASS",
+  "parent_commit": "a478643",
+  "preserved_parent_declarations": 454,
+  "new_declarations_with_build_records": 1076,
+  "successful_checkpoints": 1088,
+  "missing_checkpoints": []
+}
+{
+  "result": "PASS",
+  "baseline_commit": "41d6558609f9406b0405171636097d0949749461",
+  "preserved_source_modules": 203,
+  "root_imports_preserved": true
+}
+{
+  "result": "PASS",
+  "arrival_source_modules_preserved": 687,
+  "includes_uncommitted_round7": true,
+  "snapshot_checkpoint": "phenh_high_integer_certificate"
+}

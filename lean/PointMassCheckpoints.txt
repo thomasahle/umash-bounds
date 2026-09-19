@@ -1,8 +1,0 @@
-logs/UMASHENHPointMass-checkpoint-1.txt 0
-logs/UMASHENHPointMass-checkpoint-2.txt 0
-logs/UMASHENHPointMass-checkpoint-3.txt 0
-logs/UMASHENHPointMass-checkpoint-4.txt 1
-error: Lean exited with code 143
-Some required targets logged failures:
-- ProvenHashes.UMASHENHPointMass
-error: build failed

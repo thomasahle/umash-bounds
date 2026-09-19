@@ -1,2 +1,0 @@
-logs/UMASHShortPacking-checkpoint-8.txt 0
-logs/UMASHShortPacking-checkpoint-9.txt 0

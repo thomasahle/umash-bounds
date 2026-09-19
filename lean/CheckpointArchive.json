@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "checkpoints": 1143,
+  "unique_logs": 1143,
+  "archive": "handoff-checkpoint-logs.tar.gz",
+  "sha256": "011aca4c46778619e0308f9f8168fdfb1ae2fb590fc900b887f56893852c376e"
+}

@@ -164,11 +164,11 @@ builds. Every recorded log hash was checked; no theorem checkpoint is missing.
 * Final reproduction log: [ReproductionRound2-Final.txt](ReproductionRound2-Final.txt).
 * Reproduction script: [reproduce-corrected.sh](reproduce-corrected.sh).
 
-Remote workspace: `/home/thomas-ahle/agents/lean-umash-corrected` on
-`<xeon-host>`. Reproduce there with:
+Remote workspace: `<xeon>/lean-umash-corrected` on
+`<xeon>`. Reproduce there with:
 
 ```sh
-cd <work>/lean-umash-corrected
+cd <xeon>/lean-umash-corrected
 bash reproduce-corrected.sh
 ```
 

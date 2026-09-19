@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 cd "$(dirname "$0")"
-export ELAN_HOME="$HOME/agents/lean-hash/.elan"
+export ELAN_HOME="${ELAN_HOME:-$HOME/.elan}"
 export PATH="$ELAN_HOME/bin:$PATH"
 export LEAN_NUM_THREADS=8
 mkdir -p logs

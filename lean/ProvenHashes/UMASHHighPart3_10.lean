@@ -1,0 +1,13 @@
+import ProvenHashes.UMASHHighParts3
+
+namespace ProvenHashes.UMASH
+set_option maxRecDepth 65536
+set_option maxHeartbeats 0
+
+/-- Exact integer sum of rows 320 through 351. -/
+theorem highLedgerPart3_10_certificate :
+    ledgerPackedSum highLedgerPart3_10 highLedgerPrepared3 = 29480902850882321703889714592 := by
+  decide +kernel
+-- CHECKPOINT
+
+end ProvenHashes.UMASH

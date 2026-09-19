@@ -9,7 +9,7 @@ q=2^{64},\qquad p=2^{61}-1,\qquad C=364816,\qquad
 A=\frac{C}{q-561}.
 \]
 
-This document establishes a corrected bound. For
+This document establishes the **corrected-bound outcome** of the task. For
 every fixed 64-bit seed, every two distinct byte strings of length at most
 `8L`, and every positive integer `L`, the literal primary UMASH construction
 in the supplied reference/Lean model satisfies

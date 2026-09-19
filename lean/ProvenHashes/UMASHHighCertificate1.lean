@@ -1,0 +1,43 @@
+import ProvenHashes.UMASHHighPart1_0
+import ProvenHashes.UMASHHighPart1_1
+import ProvenHashes.UMASHHighPart1_2
+import ProvenHashes.UMASHHighPart1_3
+import ProvenHashes.UMASHHighPart1_4
+import ProvenHashes.UMASHHighPart1_5
+import ProvenHashes.UMASHHighPart1_6
+import ProvenHashes.UMASHHighPart1_7
+import ProvenHashes.UMASHHighPart1_8
+import ProvenHashes.UMASHHighPart1_9
+import ProvenHashes.UMASHHighPart1_10
+import ProvenHashes.UMASHHighPart1_11
+import ProvenHashes.UMASHHighPart1_12
+import ProvenHashes.UMASHHighPart1_13
+import ProvenHashes.UMASHHighPart1_14
+import ProvenHashes.UMASHHighPart1_15
+import ProvenHashes.UMASHHighPart1_16
+import ProvenHashes.UMASHHighPart1_17
+import ProvenHashes.UMASHHighPart1_18
+import ProvenHashes.UMASHHighPart1_19
+import ProvenHashes.UMASHHighPart1_20
+import ProvenHashes.UMASHHighPart1_21
+import ProvenHashes.UMASHHighPart1_22
+import ProvenHashes.UMASHHighPart1_23
+import ProvenHashes.UMASHHighPart1_24
+import ProvenHashes.UMASHHighPart1_25
+import ProvenHashes.UMASHHighPart1_26
+
+namespace ProvenHashes.UMASH
+set_option maxRecDepth 65536
+set_option maxHeartbeats 2000000
+attribute [local irreducible] highLedgerPrepared1
+
+/-- The full high ledger is the exact sum of the checked row blocks. -/
+theorem phenh_high_numerator_1 :
+    phenhHighLedgerNumerator 1 = 1229175348210677045699579075512 := by
+  rw [phenhHighLedger_eq_table, highLedgerData1_correct,
+    ledgerSum_eq_fast, highLedgerPrepared1_correct, ledgerFastSum_eq_packed]
+  conv_lhs => arg 1; rw [highLedgerPrepared1_partition]
+  simp only [ledgerPackedSum_append, highLedgerPart1_0_certificate, highLedgerPart1_1_certificate, highLedgerPart1_2_certificate, highLedgerPart1_3_certificate, highLedgerPart1_4_certificate, highLedgerPart1_5_certificate, highLedgerPart1_6_certificate, highLedgerPart1_7_certificate, highLedgerPart1_8_certificate, highLedgerPart1_9_certificate, highLedgerPart1_10_certificate, highLedgerPart1_11_certificate, highLedgerPart1_12_certificate, highLedgerPart1_13_certificate, highLedgerPart1_14_certificate, highLedgerPart1_15_certificate, highLedgerPart1_16_certificate, highLedgerPart1_17_certificate, highLedgerPart1_18_certificate, highLedgerPart1_19_certificate, highLedgerPart1_20_certificate, highLedgerPart1_21_certificate, highLedgerPart1_22_certificate, highLedgerPart1_23_certificate, highLedgerPart1_24_certificate, highLedgerPart1_25_certificate, highLedgerPart1_26_certificate]
+-- CHECKPOINT
+
+end ProvenHashes.UMASH

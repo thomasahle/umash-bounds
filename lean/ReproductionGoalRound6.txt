@@ -1,0 +1,49 @@
+{
+  "result": "PASS",
+  "theorems_audited": 830,
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "sorry_admit_native_decide_custom_axioms": false,
+  "unsafe_declarations": false
+}
+{
+  "result": "PASS",
+  "parent_commit": "a478643",
+  "preserved_parent_declarations": 454,
+  "new_declarations_with_build_records": 376,
+  "successful_checkpoints": 385,
+  "missing_checkpoints": []
+}
+{
+  "result": "PASS",
+  "baseline_commit": "c788f66",
+  "preserved_source_modules": 155,
+  "root_imports_preserved": true
+}
+{
+  "result": "PASS",
+  "baseline_commit": "8d79137",
+  "preserved_source_modules": 161,
+  "root_imports_preserved": true
+}
+{
+  "result": "PASS",
+  "baseline_commit": "b3e613e",
+  "preserved_source_modules": 169,
+  "root_imports_preserved": true
+}
+{
+  "result": "PASS",
+  "baseline_commit": "48ceeee",
+  "preserved_source_modules": 179,
+  "root_imports_preserved": true
+}
+{
+  "result": "PASS",
+  "baseline_commit": "6585d40",
+  "preserved_source_modules": 187,
+  "root_imports_preserved": true
+}

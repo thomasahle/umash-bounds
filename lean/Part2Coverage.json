@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "parent_commit": "a478643",
+  "preserved_parent_declarations": 454,
+  "new_declarations_with_build_records": 1131,
+  "successful_checkpoints": 1143,
+  "missing_checkpoints": []
+}
