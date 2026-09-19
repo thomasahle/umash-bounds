@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "theorems_audited": 402,
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "sorry_admit_native_decide_custom_axioms": false,
+  "unsafe_declarations": false
+}
+PASS: 60 cases (20 lengths x 3 profiles), both compressors; 120 outputs

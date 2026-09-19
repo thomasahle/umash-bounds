@@ -1,0 +1,10 @@
+logs/UMASHShortProbability-checkpoint-1.txt 0
+logs/UMASHShortProbability-checkpoint-2.txt 1
+error: ProvenHashes/UMASHShortProbability.lean:33:2: Tactic `simp` failed with a nested error:
+maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+error: Lean exited with code 1
+Some required targets logged failures:
+- ProvenHashes.UMASHShortProbability
+error: build failed

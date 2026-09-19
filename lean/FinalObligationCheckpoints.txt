@@ -1,0 +1,4 @@
+logs/UMASHMaskConsequences-checkpoint-1.txt 0
+logs/UMASHMaskConsequences-checkpoint-2.txt 0
+logs/UMASHMaskConsequences-checkpoint-3.txt 0
+logs/UMASHCorrectedObligations-checkpoint-1.txt 0

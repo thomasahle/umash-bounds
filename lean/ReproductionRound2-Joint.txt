@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "theorems_audited": 353,
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "sorry_admit_native_decide_custom_axioms": false,
+  "unsafe_declarations": false
+}

@@ -1,0 +1,615 @@
+{
+  "result": "PASS",
+  "new_theorems": 87,
+  "checks": [
+    {
+      "theorem": "ProvenHashes.UMASH.probability_subtype_mul",
+      "source": "ProvenHashes/UMASHConditioning.lean",
+      "source_sha256": "ec97e2d952a27acfaa3d876dab269e6f2e52f412b21ec094c5b8b6a5dadc507f",
+      "log": "logs/UMASHConditioning-checkpoint-1.txt",
+      "sha256": "5f1d19e066e059b970024e006e2d2f3e3afbc8da3a5d9622832418267a4c851b"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.probability_subtype_le",
+      "source": "ProvenHashes/UMASHConditioning.lean",
+      "source_sha256": "ec97e2d952a27acfaa3d876dab269e6f2e52f412b21ec094c5b8b6a5dadc507f",
+      "log": "logs/UMASHConditioning-checkpoint-2.txt",
+      "sha256": "319ce56ec991cad8b4e485a6be8ea3d7fa31eb20606e1801179fe44e354e0853"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.distinct_probability_le",
+      "source": "ProvenHashes/UMASHConditioning.lean",
+      "source_sha256": "ec97e2d952a27acfaa3d876dab269e6f2e52f412b21ec094c5b8b6a5dadc507f",
+      "log": "logs/UMASHConditioning-checkpoint-3.txt",
+      "sha256": "ede096005bdb09fe6ece2464688177d87c7863c1e91f51fc62d585920a59b379"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.long_identity_of_iid",
+      "source": "ProvenHashes/UMASHConditioning.lean",
+      "source_sha256": "ec97e2d952a27acfaa3d876dab269e6f2e52f412b21ec094c5b8b6a5dadc507f",
+      "log": "logs/UMASHConditioning-checkpoint-4.txt",
+      "sha256": "ede096005bdb09fe6ece2464688177d87c7863c1e91f51fc62d585920a59b379"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.certified64_of_iid_long_and_short",
+      "source": "ProvenHashes/UMASHConditioning.lean",
+      "source_sha256": "ec97e2d952a27acfaa3d876dab269e6f2e52f412b21ec094c5b8b6a5dadc507f",
+      "log": "logs/UMASHConditioning-checkpoint-5.txt",
+      "sha256": "ede096005bdb09fe6ece2464688177d87c7863c1e91f51fc62d585920a59b379"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.short_bound_le_certifiedEnvelope",
+      "source": "ProvenHashes/UMASHCorrectedAssembly.lean",
+      "source_sha256": "601aea2c492b984aaf5184d6d88caef037566238f4307174aafd0d94e09f46db",
+      "log": "logs/UMASHCorrectedAssembly-checkpoint-1.txt",
+      "sha256": "b3611e03b8f203cdb87c745febf61dd791cee54cb4c3b5208fb2aa34896ee246"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.certified64_of_long_identity_and_short",
+      "source": "ProvenHashes/UMASHCorrectedAssembly.lean",
+      "source_sha256": "601aea2c492b984aaf5184d6d88caef037566238f4307174aafd0d94e09f46db",
+      "log": "logs/UMASHCorrectedAssembly-checkpoint-2.txt",
+      "sha256": "ed98bb3c3f177c1feb05c74676da6e75e87e0745d007ecd24e86f1cafa815ff5"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.certifiedEnvelope_le_linear",
+      "source": "ProvenHashes/UMASHCorrectedAssembly.lean",
+      "source_sha256": "601aea2c492b984aaf5184d6d88caef037566238f4307174aafd0d94e09f46db",
+      "log": "logs/UMASHCorrectedAssembly-checkpoint-3.txt",
+      "sha256": "036d57a78f55b276c2bfa6a214439cb68170dbf37e21e2c8e5b4a48677cfc01a"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.correctedLinear64_of_certified",
+      "source": "ProvenHashes/UMASHCorrectedAssembly.lean",
+      "source_sha256": "601aea2c492b984aaf5184d6d88caef037566238f4307174aafd0d94e09f46db",
+      "log": "logs/UMASHCorrectedAssembly-checkpoint-4.txt",
+      "sha256": "036d57a78f55b276c2bfa6a214439cb68170dbf37e21e2c8e5b4a48677cfc01a"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.correctedLinear128_of_64",
+      "source": "ProvenHashes/UMASHCorrectedAssembly.lean",
+      "source_sha256": "601aea2c492b984aaf5184d6d88caef037566238f4307174aafd0d94e09f46db",
+      "log": "logs/UMASHCorrectedAssembly-checkpoint-5.txt",
+      "sha256": "036d57a78f55b276c2bfa6a214439cb68170dbf37e21e2c8e5b4a48677cfc01a"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.corrected_joint_arithmetic",
+      "source": "ProvenHashes/UMASHCorrectedAssembly.lean",
+      "source_sha256": "601aea2c492b984aaf5184d6d88caef037566238f4307174aafd0d94e09f46db",
+      "log": "logs/UMASHCorrectedAssembly-checkpoint-6.txt",
+      "sha256": "036d57a78f55b276c2bfa6a214439cb68170dbf37e21e2c8e5b4a48677cfc01a"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.openENHOnly_of_joint",
+      "source": "ProvenHashes/UMASHCorrectedObligations.lean",
+      "source_sha256": "4b9f0a576c25b0da1829b58a15eba8ca9d56fa0cce4c2a9ba468ae06a246392c",
+      "log": "logs/UMASHCorrectedObligations-checkpoint-1.txt",
+      "sha256": "712d997cb971dab2cee9a10dc70ce1658169ddaff3cfdd7f68e638c41b44f234"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.maskPatternPairs_card",
+      "source": "ProvenHashes/UMASHENHCount.lean",
+      "source_sha256": "444f926ba42a15caf04cb8ddd11fe43c91a22839c5756163b7ed5ab9df9a834f",
+      "log": "logs/UMASHENHCount-checkpoint-1.txt",
+      "sha256": "1fce7212cb48ac4c9b819053754ac46a04e47d7962e078c3321bf74c963ffdd1"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enhHighNat_lt",
+      "source": "ProvenHashes/UMASHENHCount.lean",
+      "source_sha256": "444f926ba42a15caf04cb8ddd11fe43c91a22839c5756163b7ed5ab9df9a834f",
+      "log": "logs/UMASHENHCount-checkpoint-2.txt",
+      "sha256": "151f45b74532bf919f09b7498768e086a88e78e5aacd8c3d70bd868acf671be9"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.event_card_le_targets",
+      "source": "ProvenHashes/UMASHENHCount.lean",
+      "source_sha256": "444f926ba42a15caf04cb8ddd11fe43c91a22839c5756163b7ed5ab9df9a834f",
+      "log": "logs/UMASHENHCount-checkpoint-3.txt",
+      "sha256": "bd2040b47efc4a7f4505fc952dbdb17a09dbf59ab9e848041c5e7c1f8de9da59"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enh_low_equal_count",
+      "source": "ProvenHashes/UMASHENHCount.lean",
+      "source_sha256": "444f926ba42a15caf04cb8ddd11fe43c91a22839c5756163b7ed5ab9df9a834f",
+      "log": "logs/UMASHENHCount-checkpoint-4.txt",
+      "sha256": "a1464dcd66d66638ab75668cd307a2886dcbc110827453e540446856d96cd869"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enh_low_equal_probability",
+      "source": "ProvenHashes/UMASHENHCount.lean",
+      "source_sha256": "444f926ba42a15caf04cb8ddd11fe43c91a22839c5756163b7ed5ab9df9a834f",
+      "log": "logs/UMASHENHCount-checkpoint-5.txt",
+      "sha256": "24005c4a6e432895ca7b7780f066534dfe9cc39a1b1e482a05fff2121ee8c010"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.xor_common_cancel",
+      "source": "ProvenHashes/UMASHENHFibre.lean",
+      "source_sha256": "7158397c7a33b09e85e1181f26498a254dcfb44be27f82a6e7650b6544eefb03",
+      "log": "logs/UMASHENHFibre-checkpoint-1.txt",
+      "sha256": "ef5e8f11075062ed46ad35a9ee44c107d8134812a383fdc3fae4adbb51c20603"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.xor_pattern_recover",
+      "source": "ProvenHashes/UMASHENHFibre.lean",
+      "source_sha256": "7158397c7a33b09e85e1181f26498a254dcfb44be27f82a6e7650b6544eefb03",
+      "log": "logs/UMASHENHFibre-checkpoint-2.txt",
+      "sha256": "f789cbf7dfa119864a10f03126c4f95d61f1ceafefed4fd0ce609c3dd6cb8bbb"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enh_necessary_congruence",
+      "source": "ProvenHashes/UMASHENHFibre.lean",
+      "source_sha256": "7158397c7a33b09e85e1181f26498a254dcfb44be27f82a6e7650b6544eefb03",
+      "log": "logs/UMASHENHFibre-checkpoint-3.txt",
+      "sha256": "529d8ca0c114512bb699dee00fd0be30d44f0a9d4d76c86107a8c17b56dae84a"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.and_mod_word",
+      "source": "ProvenHashes/UMASHENHFibre.lean",
+      "source_sha256": "7158397c7a33b09e85e1181f26498a254dcfb44be27f82a6e7650b6544eefb03",
+      "log": "logs/UMASHENHFibre-checkpoint-4.txt",
+      "sha256": "713eb614d29bdbc41ba060ac59490cbc1814725eb80f3e025bf57e815f9f6aed"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enh_signed_fibre_unique",
+      "source": "ProvenHashes/UMASHENHFibre.lean",
+      "source_sha256": "7158397c7a33b09e85e1181f26498a254dcfb44be27f82a6e7650b6544eefb03",
+      "log": "logs/UMASHENHFibre-checkpoint-5.txt",
+      "sha256": "713eb614d29bdbc41ba060ac59490cbc1814725eb80f3e025bf57e815f9f6aed"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enh_wrap_fibre_unique",
+      "source": "ProvenHashes/UMASHENHFibre.lean",
+      "source_sha256": "7158397c7a33b09e85e1181f26498a254dcfb44be27f82a6e7650b6544eefb03",
+      "log": "logs/UMASHENHFibre-checkpoint-6.txt",
+      "sha256": "685c84986df1da9781acad5aec0c9d7c45d85043644fbdd50e64d298b3259d25"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.congruent_equal_low_four",
+      "source": "ProvenHashes/UMASHENHHighValuation.lean",
+      "source_sha256": "a4b5a73777e6ed238698315f87911e18532610b18530307ddab5466570ed64ef",
+      "log": "logs/UMASHENHHighValuation-checkpoint-1.txt",
+      "sha256": "c96a9ae90dcdfe904fd21a1ba6dc1dcbd6de383485e7a0def1a4ed18b5bdc261"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.wrapped_product_mod_sixteen",
+      "source": "ProvenHashes/UMASHENHHighValuation.lean",
+      "source_sha256": "a4b5a73777e6ed238698315f87911e18532610b18530307ddab5466570ed64ef",
+      "log": "logs/UMASHENHHighValuation-checkpoint-2.txt",
+      "sha256": "b40ee109eabe534c2d6a9f18091967276cd33dedc8c814ad4ccaab68cc39a5ba"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enh_projected_implies_low_equal",
+      "source": "ProvenHashes/UMASHENHHighValuation.lean",
+      "source_sha256": "a4b5a73777e6ed238698315f87911e18532610b18530307ddab5466570ed64ef",
+      "log": "logs/UMASHENHHighValuation-checkpoint-3.txt",
+      "sha256": "99398adf61b4bf7061cddaf84d8de24327a99997537f924323ec8757651bec47"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enh_high_valuation_probability",
+      "source": "ProvenHashes/UMASHENHHighValuation.lean",
+      "source_sha256": "a4b5a73777e6ed238698315f87911e18532610b18530307ddab5466570ed64ef",
+      "log": "logs/UMASHENHHighValuation-checkpoint-4.txt",
+      "sha256": "99398adf61b4bf7061cddaf84d8de24327a99997537f924323ec8757651bec47"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.xorChunk_fixed_injective",
+      "source": "ProvenHashes/UMASHENHPointMass.lean",
+      "source_sha256": "e220ab9938974ba4f7e9a4c322c2292303584975027da7338e5587651cc4df3f",
+      "log": "logs/UMASHENHPointMass-checkpoint-1.txt",
+      "sha256": "7dbf25d2a531450a7587ca7e0ed9c2ca396f1ec9db3de352ea066cd1f0a69b76"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.tagFold_injective",
+      "source": "ProvenHashes/UMASHENHPointMass.lean",
+      "source_sha256": "e220ab9938974ba4f7e9a4c322c2292303584975027da7338e5587651cc4df3f",
+      "log": "logs/UMASHENHPointMass-checkpoint-2.txt",
+      "sha256": "7dbf25d2a531450a7587ca7e0ed9c2ca396f1ec9db3de352ea066cd1f0a69b76"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.masked_enh_second_injective",
+      "source": "ProvenHashes/UMASHENHPointMass.lean",
+      "source_sha256": "e220ab9938974ba4f7e9a4c322c2292303584975027da7338e5587651cc4df3f",
+      "log": "logs/UMASHENHPointMass-checkpoint-3.txt",
+      "sha256": "7dbf25d2a531450a7587ca7e0ed9c2ca396f1ec9db3de352ea066cd1f0a69b76"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.exceptional_slice_count",
+      "source": "ProvenHashes/UMASHENHPointMass.lean",
+      "source_sha256": "e220ab9938974ba4f7e9a4c322c2292303584975027da7338e5587651cc4df3f",
+      "log": "logs/UMASHENHPointMass-checkpoint-4.txt",
+      "sha256": "f03177b94cef9d6b6683a4cecc6f065aeb242779501a25cd014a3d2d6e0a42ba"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enh_projected_point_count",
+      "source": "ProvenHashes/UMASHENHPointMass.lean",
+      "source_sha256": "e220ab9938974ba4f7e9a4c322c2292303584975027da7338e5587651cc4df3f",
+      "log": "logs/UMASHENHPointMass-checkpoint-5.txt",
+      "sha256": "f03177b94cef9d6b6683a4cecc6f065aeb242779501a25cd014a3d2d6e0a42ba"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enh_projected_point_mass",
+      "source": "ProvenHashes/UMASHENHPointMass.lean",
+      "source_sha256": "e220ab9938974ba4f7e9a4c322c2292303584975027da7338e5587651cc4df3f",
+      "log": "logs/UMASHENHPointMass-checkpoint-6.txt",
+      "sha256": "7b3009e11352d3886d53cd2b07b2f6417373c47d0e478642d02c2b45e9b4c48a"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enh_projected_point_mass_data",
+      "source": "ProvenHashes/UMASHENHPointMass.lean",
+      "source_sha256": "e220ab9938974ba4f7e9a4c322c2292303584975027da7338e5587651cc4df3f",
+      "log": "logs/UMASHENHPointMass-checkpoint-7.txt",
+      "sha256": "a8d02a923aed64e5c195ce197b36f6a66326a2a2249c2dba342c7e584bb1bcda"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enh_projected_point_mass_lt",
+      "source": "ProvenHashes/UMASHENHPointMass.lean",
+      "source_sha256": "e220ab9938974ba4f7e9a4c322c2292303584975027da7338e5587651cc4df3f",
+      "log": "logs/UMASHENHPointMass-checkpoint-8.txt",
+      "sha256": "0db353842e1d75753d835fe2f55847e540a5eb3b193913cd1f7e0e7a662da985"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.widened_word_toNat",
+      "source": "ProvenHashes/UMASHENHWords.lean",
+      "source_sha256": "b824e4d517a5b6eedb8b47ca05b4e5f418e7e12a16513a819f1fe57f9d35315f",
+      "log": "logs/UMASHENHWords-checkpoint-1.txt",
+      "sha256": "2a55699e34d050b4e5e65d2044350d8fc0092b6b1057305b5d6709f337410094"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.widened_product_toNat",
+      "source": "ProvenHashes/UMASHENHWords.lean",
+      "source_sha256": "b824e4d517a5b6eedb8b47ca05b4e5f418e7e12a16513a819f1fe57f9d35315f",
+      "log": "logs/UMASHENHWords-checkpoint-2.txt",
+      "sha256": "2a55699e34d050b4e5e65d2044350d8fc0092b6b1057305b5d6709f337410094"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.high_tag_toNat",
+      "source": "ProvenHashes/UMASHENHWords.lean",
+      "source_sha256": "b824e4d517a5b6eedb8b47ca05b4e5f418e7e12a16513a819f1fe57f9d35315f",
+      "log": "logs/UMASHENHWords-checkpoint-3.txt",
+      "sha256": "bb5c8adb019098980d4990c1a9337d2aac69f590deaf9af3eba7a17a41b04815"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.tagged_split_low",
+      "source": "ProvenHashes/UMASHENHWords.lean",
+      "source_sha256": "b824e4d517a5b6eedb8b47ca05b4e5f418e7e12a16513a819f1fe57f9d35315f",
+      "log": "logs/UMASHENHWords-checkpoint-4.txt",
+      "sha256": "2a55699e34d050b4e5e65d2044350d8fc0092b6b1057305b5d6709f337410094"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.tagged_split_high",
+      "source": "ProvenHashes/UMASHENHWords.lean",
+      "source_sha256": "b824e4d517a5b6eedb8b47ca05b4e5f418e7e12a16513a819f1fe57f9d35315f",
+      "log": "logs/UMASHENHWords-checkpoint-5.txt",
+      "sha256": "9006138fe3857154897e3028675e420ea5a6c453dff8f94c32f43cee14ffa41c"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enh_toNat",
+      "source": "ProvenHashes/UMASHENHWords.lean",
+      "source_sha256": "b824e4d517a5b6eedb8b47ca05b4e5f418e7e12a16513a819f1fe57f9d35315f",
+      "log": "logs/UMASHENHWords-checkpoint-6.txt",
+      "sha256": "bb5c8adb019098980d4990c1a9337d2aac69f590deaf9af3eba7a17a41b04815"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.masked_enh_high_toNat",
+      "source": "ProvenHashes/UMASHENHWords.lean",
+      "source_sha256": "b824e4d517a5b6eedb8b47ca05b4e5f418e7e12a16513a819f1fe57f9d35315f",
+      "log": "logs/UMASHENHWords-checkpoint-7.txt",
+      "sha256": "9006138fe3857154897e3028675e420ea5a6c453dff8f94c32f43cee14ffa41c"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.odd_cancel_two_pow",
+      "source": "ProvenHashes/UMASHLift.lean",
+      "source_sha256": "52492485498a0652e9fd6c09fa7e2cc325a47d1bc504fb5cf86b627ce4deabb4",
+      "log": "logs/UMASHLift-checkpoint-1.txt",
+      "sha256": "bcfbb995d289d70f95452bd876fc38cb068cb54828bf2e6b5d71dac8c7b59684"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.product_mask_prefix",
+      "source": "ProvenHashes/UMASHLift.lean",
+      "source_sha256": "52492485498a0652e9fd6c09fa7e2cc325a47d1bc504fb5cf86b627ce4deabb4",
+      "log": "logs/UMASHLift-checkpoint-2.txt",
+      "sha256": "913823852635dc0d9191b4a7b72146210b2a348927bcc713a949e5da061258b3"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.triangular_lift_unique",
+      "source": "ProvenHashes/UMASHLift.lean",
+      "source_sha256": "52492485498a0652e9fd6c09fa7e2cc325a47d1bc504fb5cf86b627ce4deabb4",
+      "log": "logs/UMASHLift-checkpoint-3.txt",
+      "sha256": "8571dae8f881c13a2ea367735d47d2509952d21fa391124aa7b7875685f23aa4"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.enh_lift_congruence_unique",
+      "source": "ProvenHashes/UMASHLift.lean",
+      "source_sha256": "52492485498a0652e9fd6c09fa7e2cc325a47d1bc504fb5cf86b627ce4deabb4",
+      "log": "logs/UMASHLift-checkpoint-4.txt",
+      "sha256": "8571dae8f881c13a2ea367735d47d2509952d21fa391124aa7b7875685f23aa4"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.valuationMasks_eq_zero",
+      "source": "ProvenHashes/UMASHMaskConsequences.lean",
+      "source_sha256": "f1f92a46a99a1dc098589da1cb2375e21ac6742cf0f1aaa9a4ce37adf37da30e",
+      "log": "logs/UMASHMaskConsequences-checkpoint-1.txt",
+      "sha256": "9b17609542648bb6327d3cb3bdaa87ec6ef4fc903a1a2078934733ad0c30cafe"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.patternWeight_ge_four",
+      "source": "ProvenHashes/UMASHMaskConsequences.lean",
+      "source_sha256": "f1f92a46a99a1dc098589da1cb2375e21ac6742cf0f1aaa9a4ce37adf37da30e",
+      "log": "logs/UMASHMaskConsequences-checkpoint-2.txt",
+      "sha256": "9b17609542648bb6327d3cb3bdaa87ec6ef4fc903a1a2078934733ad0c30cafe"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.valuationMasks_card_ge_four",
+      "source": "ProvenHashes/UMASHMaskConsequences.lean",
+      "source_sha256": "f1f92a46a99a1dc098589da1cb2375e21ac6742cf0f1aaa9a4ce37adf37da30e",
+      "log": "logs/UMASHMaskConsequences-checkpoint-3.txt",
+      "sha256": "9b17609542648bb6327d3cb3bdaa87ec6ef4fc903a1a2078934733ad0c30cafe"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.valuationMasks_card_table",
+      "source": "ProvenHashes/UMASHMaskRefinements.lean",
+      "source_sha256": "19e0e47a449eb6deb58e9b733b6a8fd36943af3e4559edae733d822ff477272a",
+      "log": "logs/UMASHMaskRefinements-checkpoint-1.txt",
+      "sha256": "3f34b980282412acc1576e757e29c3ba5d797b48345fd3f5e85b6f08c9e3016d"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.maskSet_low_high_counts",
+      "source": "ProvenHashes/UMASHMaskRefinements.lean",
+      "source_sha256": "19e0e47a449eb6deb58e9b733b6a8fd36943af3e4559edae733d822ff477272a",
+      "log": "logs/UMASHMaskRefinements-checkpoint-2.txt",
+      "sha256": "07dc81508dec41153afc31bf88ee77a448aff89375a067a6aa45b4a9a7f42ae2"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.maskSet_mod_sixteen",
+      "source": "ProvenHashes/UMASHMaskRefinements.lean",
+      "source_sha256": "19e0e47a449eb6deb58e9b733b6a8fd36943af3e4559edae733d822ff477272a",
+      "log": "logs/UMASHMaskRefinements-checkpoint-3.txt",
+      "sha256": "52574d69dbe7c77254f8efa944a900b3762f5b4aa9e7ddcc6585ee65e933dd19"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.maskSet_nonzero_large",
+      "source": "ProvenHashes/UMASHMaskRefinements.lean",
+      "source_sha256": "19e0e47a449eb6deb58e9b733b6a8fd36943af3e4559edae733d822ff477272a",
+      "log": "logs/UMASHMaskRefinements-checkpoint-4.txt",
+      "sha256": "bb8aa041301a22fa9007398f6a476fdd97896c5e60e5718dc63b1a57ba8839c0"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.injective_chunk_xor_point",
+      "source": "ProvenHashes/UMASHPHDifference.lean",
+      "source_sha256": "e2938e18a5c832aefae6ba5fc86a97a77498519cc86067fb019c51a8bb737b3c",
+      "log": "logs/UMASHPHDifference-checkpoint-1.txt",
+      "sha256": "be6851ff0c4b513b8cc04643477e8eac9496c999358143e580edc22fab509d19"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.ph_xor_target_probability",
+      "source": "ProvenHashes/UMASHPHDifference.lean",
+      "source_sha256": "e2938e18a5c832aefae6ba5fc86a97a77498519cc86067fb019c51a8bb737b3c",
+      "log": "logs/UMASHPHDifference-checkpoint-2.txt",
+      "sha256": "4aa6436775af4d708e6fff03f700d008fae59812bb329d707f6142f67fb32c82"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.patternWeight_table",
+      "source": "ProvenHashes/UMASHPatternCertificate.lean",
+      "source_sha256": "ecdf5f1ab5e2bc8e9e609c02f08208136b4713b214024caa1f85cecfc44c7265",
+      "log": "logs/UMASHPatternCertificate-checkpoint-1.txt",
+      "sha256": "ce9659584c555d45aaad6a45c5d198048c68fe1df4735951d63d69a03cbff0a8"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.xor_signed_difference",
+      "source": "ProvenHashes/UMASHPatterns.lean",
+      "source_sha256": "92452f71ae992ef2bb18374585c799234ac789fceb384caee0275cf28c2b9ed4",
+      "log": "logs/UMASHPatterns-checkpoint-1.txt",
+      "sha256": "6d7a0b92ef2b0d12b50b888638f411649728b91d7186252b1d45454057666ae1"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.mem_maskPatterns_iff",
+      "source": "ProvenHashes/UMASHPatterns.lean",
+      "source_sha256": "92452f71ae992ef2bb18374585c799234ac789fceb384caee0275cf28c2b9ed4",
+      "log": "logs/UMASHPatterns-checkpoint-2.txt",
+      "sha256": "1f169fc81ce17531611585655efaea35166182c97ec5ad6103e44c2fd9c6c8e9"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.congruent_pattern",
+      "source": "ProvenHashes/UMASHPatterns.lean",
+      "source_sha256": "92452f71ae992ef2bb18374585c799234ac789fceb384caee0275cf28c2b9ed4",
+      "log": "logs/UMASHPatterns-checkpoint-3.txt",
+      "sha256": "c976eccc65cec709557a9469793d7ec7e864b98033f9aba873341967d4ea5560"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.pattern_implies_congruent",
+      "source": "ProvenHashes/UMASHPatterns.lean",
+      "source_sha256": "92452f71ae992ef2bb18374585c799234ac789fceb384caee0275cf28c2b9ed4",
+      "log": "logs/UMASHPatterns-checkpoint-4.txt",
+      "sha256": "d406e9231690b45872f21f873d7141e47c0f201f1e0a279c4f6c260cc45b70b5"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.congruent_iff_pattern",
+      "source": "ProvenHashes/UMASHPatterns.lean",
+      "source_sha256": "92452f71ae992ef2bb18374585c799234ac789fceb384caee0275cf28c2b9ed4",
+      "log": "logs/UMASHPatterns-checkpoint-5.txt",
+      "sha256": "d406e9231690b45872f21f873d7141e47c0f201f1e0a279c4f6c260cc45b70b5"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.mask_low_bit_count",
+      "source": "ProvenHashes/UMASHProjectionRefined.lean",
+      "source_sha256": "876211a0f1bc72530dfd6f4a4dcd14096acc3ee4a12d4be4385e48aa985a54fe",
+      "log": "logs/UMASHProjectionRefined-checkpoint-1.txt",
+      "sha256": "67f55a90ab572b920ad457ea8f8e05740855dbd8d08fa4e6b22e07634e2f845c"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.mask_high_bit_count",
+      "source": "ProvenHashes/UMASHProjectionRefined.lean",
+      "source_sha256": "876211a0f1bc72530dfd6f4a4dcd14096acc3ee4a12d4be4385e48aa985a54fe",
+      "log": "logs/UMASHProjectionRefined-checkpoint-2.txt",
+      "sha256": "b8fcc6ce1d1c7d51ce5940a9613810d4c29197abfb38fb32f64b8ce93767f48b"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.projected_collision_fixed_bits_bound",
+      "source": "ProvenHashes/UMASHProjectionRefined.lean",
+      "source_sha256": "876211a0f1bc72530dfd6f4a4dcd14096acc3ee4a12d4be4385e48aa985a54fe",
+      "log": "logs/UMASHProjectionRefined-checkpoint-3.txt",
+      "sha256": "c047b0b78d1c1d2b4679e62b671b71de1e7078effd78ecaef03d9a0a6a5014da"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.short_collision_iid",
+      "source": "ProvenHashes/UMASHShortClosure.lean",
+      "source_sha256": "864e03adc220bc2889bf2bfed9b85eda2c791ebba7d0465626b1b679984603f9",
+      "log": "logs/UMASHShortClosure-checkpoint-1.txt",
+      "sha256": "aefae44f559173a49f958a63ded20f6c0649040a5e6de6351d59eeebe74c3480"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.short_one_word_bound",
+      "source": "ProvenHashes/UMASHShortClosure.lean",
+      "source_sha256": "864e03adc220bc2889bf2bfed9b85eda2c791ebba7d0465626b1b679984603f9",
+      "log": "logs/UMASHShortClosure-checkpoint-2.txt",
+      "sha256": "4987e0483931d30268af6bfc911e5ac712c992f53174b60ea31f9290f2c683af"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.certified64_of_iid_long",
+      "source": "ProvenHashes/UMASHShortClosure.lean",
+      "source_sha256": "864e03adc220bc2889bf2bfed9b85eda2c791ebba7d0465626b1b679984603f9",
+      "log": "logs/UMASHShortClosure-checkpoint-3.txt",
+      "sha256": "4987e0483931d30268af6bfc911e5ac712c992f53174b60ea31f9290f2c683af"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.xor_right_shift_injective",
+      "source": "ProvenHashes/UMASHShortMixer.lean",
+      "source_sha256": "5c468204efeae1ff4ec4849a3356c855d78f8d7219652e628144c8b2baaa26b4",
+      "log": "logs/UMASHShortMixer-checkpoint-1.txt",
+      "sha256": "d957db8041e4c7f220a3f9c51069d1f59182214e35697f5327ec70ed945f6eef"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.word_mul_injective",
+      "source": "ProvenHashes/UMASHShortMixer.lean",
+      "source_sha256": "5c468204efeae1ff4ec4849a3356c855d78f8d7219652e628144c8b2baaa26b4",
+      "log": "logs/UMASHShortMixer-checkpoint-2.txt",
+      "sha256": "633772c91a1e9e1578e7cb7ab13cf15e5778a9f1b4fb9d50577a293f995a5120"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.shortPrepare_injective",
+      "source": "ProvenHashes/UMASHShortMixer.lean",
+      "source_sha256": "5c468204efeae1ff4ec4849a3356c855d78f8d7219652e628144c8b2baaa26b4",
+      "log": "logs/UMASHShortMixer-checkpoint-3.txt",
+      "sha256": "633772c91a1e9e1578e7cb7ab13cf15e5778a9f1b4fb9d50577a293f995a5120"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.shortFinish_injective",
+      "source": "ProvenHashes/UMASHShortMixer.lean",
+      "source_sha256": "5c468204efeae1ff4ec4849a3356c855d78f8d7219652e628144c8b2baaa26b4",
+      "log": "logs/UMASHShortMixer-checkpoint-4.txt",
+      "sha256": "633772c91a1e9e1578e7cb7ab13cf15e5778a9f1b4fb9d50577a293f995a5120"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.shortHash_eq_mixer",
+      "source": "ProvenHashes/UMASHShortMixer.lean",
+      "source_sha256": "5c468204efeae1ff4ec4849a3356c855d78f8d7219652e628144c8b2baaa26b4",
+      "log": "logs/UMASHShortMixer-checkpoint-5.txt",
+      "sha256": "633772c91a1e9e1578e7cb7ab13cf15e5778a9f1b4fb9d50577a293f995a5120"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.loadLE_eq_bytesNat",
+      "source": "ProvenHashes/UMASHShortPacking.lean",
+      "source_sha256": "bdf5bfa799c75416861ac3e4808690ff115d6db144751e01a1d73e7ef6f4b40e",
+      "log": "logs/UMASHShortPacking-checkpoint-1.txt",
+      "sha256": "978164d193edc657a971499fbca1aaa5c41c15078e08163c3d24c2c25a127f70"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.loadLE_lt_of_length",
+      "source": "ProvenHashes/UMASHShortPacking.lean",
+      "source_sha256": "bdf5bfa799c75416861ac3e4808690ff115d6db144751e01a1d73e7ef6f4b40e",
+      "log": "logs/UMASHShortPacking-checkpoint-2.txt",
+      "sha256": "35ab0a528893e737fc03b9ecc889790b9a5f75edd1f34d4f932efb691fc1f160"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.shortLow_lt",
+      "source": "ProvenHashes/UMASHShortPacking.lean",
+      "source_sha256": "bdf5bfa799c75416861ac3e4808690ff115d6db144751e01a1d73e7ef6f4b40e",
+      "log": "logs/UMASHShortPacking-checkpoint-3.txt",
+      "sha256": "3fc1ca281b40c58ff32262e08e8f4138a061cb516fa5656592260e3a8ebdeaf6"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.shortHigh_lt",
+      "source": "ProvenHashes/UMASHShortPacking.lean",
+      "source_sha256": "bdf5bfa799c75416861ac3e4808690ff115d6db144751e01a1d73e7ef6f4b40e",
+      "log": "logs/UMASHShortPacking-checkpoint-4.txt",
+      "sha256": "e2a5123d72bdf2f45a5c555161bb60117f219938ad2e2623433a9609f7eb165e"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.shortPack_toNat",
+      "source": "ProvenHashes/UMASHShortPacking.lean",
+      "source_sha256": "bdf5bfa799c75416861ac3e4808690ff115d6db144751e01a1d73e7ef6f4b40e",
+      "log": "logs/UMASHShortPacking-checkpoint-5.txt",
+      "sha256": "14f393cd1075da2ebc87ca441e7dd0fefcb5600fdaae44ee83ce2d414873ba27"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.shortPack_components",
+      "source": "ProvenHashes/UMASHShortPacking.lean",
+      "source_sha256": "bdf5bfa799c75416861ac3e4808690ff115d6db144751e01a1d73e7ef6f4b40e",
+      "log": "logs/UMASHShortPacking-checkpoint-6.txt",
+      "sha256": "aa6066aa87e06ae96e987f3dab2e304de800a880cd2509de81dfab31bc21779a"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.list_eq_of_overlapping_ends",
+      "source": "ProvenHashes/UMASHShortPacking.lean",
+      "source_sha256": "bdf5bfa799c75416861ac3e4808690ff115d6db144751e01a1d73e7ef6f4b40e",
+      "log": "logs/UMASHShortPacking-checkpoint-7.txt",
+      "sha256": "aa6066aa87e06ae96e987f3dab2e304de800a880cd2509de81dfab31bc21779a"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.shortPack_injective_length",
+      "source": "ProvenHashes/UMASHShortPacking.lean",
+      "source_sha256": "bdf5bfa799c75416861ac3e4808690ff115d6db144751e01a1d73e7ef6f4b40e",
+      "log": "logs/UMASHShortPacking-checkpoint-8.txt",
+      "sha256": "a1f3aa4b827f0f972aad9ab6694ae4b121c2a27dd352f84eabc940e5793c4a0e"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.short_equal_length_injective",
+      "source": "ProvenHashes/UMASHShortPacking.lean",
+      "source_sha256": "bdf5bfa799c75416861ac3e4808690ff115d6db144751e01a1d73e7ef6f4b40e",
+      "log": "logs/UMASHShortPacking-checkpoint-9.txt",
+      "sha256": "a1f3aa4b827f0f972aad9ab6694ae4b121c2a27dd352f84eabc940e5793c4a0e"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.probability_prod_eq",
+      "source": "ProvenHashes/UMASHShortProbability.lean",
+      "source_sha256": "17e211855e97dc4fa8096709adb762a3b6b91530d1f9d2724dd6891c6fc607c8",
+      "log": "logs/UMASHShortProbability-checkpoint-1.txt",
+      "sha256": "e420d64a671fa3676361ad9faff151c867ec5dcd7f690e2390b669c48e765d26"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.probability_eq_of_update",
+      "source": "ProvenHashes/UMASHShortProbability.lean",
+      "source_sha256": "17e211855e97dc4fa8096709adb762a3b6b91530d1f9d2724dd6891c6fc607c8",
+      "log": "logs/UMASHShortProbability-checkpoint-2.txt",
+      "sha256": "188afb46d0a6624c4caa749557630e716de9ae589c1a42035cbad30650c7cb2f"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.probability_bijective_point",
+      "source": "ProvenHashes/UMASHShortProbability.lean",
+      "source_sha256": "17e211855e97dc4fa8096709adb762a3b6b91530d1f9d2724dd6891c6fc607c8",
+      "log": "logs/UMASHShortProbability-checkpoint-3.txt",
+      "sha256": "188afb46d0a6624c4caa749557630e716de9ae589c1a42035cbad30650c7cb2f"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.shortHash_noise_bijective",
+      "source": "ProvenHashes/UMASHShortProbability.lean",
+      "source_sha256": "17e211855e97dc4fa8096709adb762a3b6b91530d1f9d2724dd6891c6fc607c8",
+      "log": "logs/UMASHShortProbability-checkpoint-4.txt",
+      "sha256": "188afb46d0a6624c4caa749557630e716de9ae589c1a42035cbad30650c7cb2f"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.short_message_uniform",
+      "source": "ProvenHashes/UMASHShortProbability.lean",
+      "source_sha256": "17e211855e97dc4fa8096709adb762a3b6b91530d1f9d2724dd6891c6fc607c8",
+      "log": "logs/UMASHShortProbability-checkpoint-5.txt",
+      "sha256": "188afb46d0a6624c4caa749557630e716de9ae589c1a42035cbad30650c7cb2f"
+    },
+    {
+      "theorem": "ProvenHashes.UMASH.short_different_length_collision",
+      "source": "ProvenHashes/UMASHShortProbability.lean",
+      "source_sha256": "17e211855e97dc4fa8096709adb762a3b6b91530d1f9d2724dd6891c6fc607c8",
+      "log": "logs/UMASHShortProbability-checkpoint-6.txt",
+      "sha256": "1d2276a70fc6a5bc925379e593d0eb66bd4588a0692cb0976bf549c7a7a660aa"
+    }
+  ]
+}

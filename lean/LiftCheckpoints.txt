@@ -1,0 +1,1 @@
+logs/UMASHLift-checkpoint-4.txt 0

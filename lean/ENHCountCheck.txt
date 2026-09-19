@@ -1,0 +1,46 @@
+CheckENHCount.lean:19:8: warning: This simp argument is unused:
+  Bool.xor_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [̵B̵o̵o̵l̵.̵x̵o̵r̵_̵a̵s̵s̵o̵c̵,̵ ̵B̵o̵o̵l̵.̵x̵o̵r̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵,̵[̲B̲o̲o̲l̲.̲x̲o̲r̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲,̲ Bool.xor_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CheckENHCount.lean:19:44: warning: This simp argument is unused:
+  Bool.xor_comm
+
+Hint: Omit it from the simp argument list.
+  simp [Bool.xor_assoc, Bool.xor_left_comm,̵ ̵B̵o̵o̵l̵.̵x̵o̵r̵_̵c̵o̵m̵m̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CheckENHCount.lean:29:8: warning: This simp argument is unused:
+  Bool.xor_assoc
+
+Hint: Omit it from the simp argument list.
+  simp [̵B̵o̵o̵l̵.̵x̵o̵r̵_̵a̵s̵s̵o̵c̵,̵ ̵B̵o̵o̵l̵.̵x̵o̵r̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵,̵[̲B̲o̲o̲l̲.̲x̲o̲r̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲,̲ Bool.xor_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+CheckENHCount.lean:226:10: error: omega could not prove the goal:
+a possible counterexample may satisfy the constraints
+  0 ≤ g ≤ 18446744073709551615
+  e ≥ 0
+  d ≥ 0
+  c ≥ 0
+  c - d ≥ 1
+  c - e ≥ 1
+  2*c - d - g ≤ 0
+  b ≥ 1
+  b ≥ 1
+  0 ≤ a ≤ 63
+where
+ a := ↑r
+ b := ↑2 ^ r
+ c := ↑q
+ d := ↑ε
+ e := ↑M
+ g := ↑(BitVec.toNat ab.2)
+CheckENHCount.lean:248:8: error: Type mismatch
+  Eq.symm ht
+has type
+  (fun v => v.snd) ((fun v => v.2.2) (f (A, B₂))) = (fun v => v.snd) ((fun v => v.2.2) (f (A, B₁)))
+but is expected to have type
+  X (A, B₂) &&& (X (A, B₂) ^^^ Y (A, B₂)) = X (A, B₁) &&& (X (A, B₂) ^^^ Y (A, B₂))

@@ -1,0 +1,12 @@
+logs/UMASHShortClosure-checkpoint-1.txt 0
+logs/UMASHShortClosure-checkpoint-2.txt 1
+error: ProvenHashes/UMASHShortClosure.lean:29:2: Type mismatch: After simplification, term
+  h
+ has type
+  (uniformProb fun (k : DistinctOHKey) => shortHash (↑k) seed x false = shortHash (↑k) seed y false) ≤ 1 / ↑(q - 561)
+but is expected to have type
+  (uniformProb fun (k : Key64) => shortHash (↑k.1) seed x false = shortHash (↑k.1) seed y false) ≤ 1 / ↑(q - 561)
+error: Lean exited with code 1
+Some required targets logged failures:
+- ProvenHashes.UMASHShortClosure
+error: build failed

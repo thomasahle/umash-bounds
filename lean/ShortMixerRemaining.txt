@@ -1,0 +1,4 @@
+logs/UMASHShortMixer-checkpoint-2.txt 0
+logs/UMASHShortMixer-checkpoint-3.txt 0
+logs/UMASHShortMixer-checkpoint-4.txt 0
+logs/UMASHShortMixer-checkpoint-5.txt 0

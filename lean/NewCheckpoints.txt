@@ -1,0 +1,127 @@
+logs/UMASHPatterns-checkpoint-1.txt 0
+logs/UMASHPatterns-checkpoint-2.txt 0
+logs/UMASHPatterns-checkpoint-3.txt 0
+logs/UMASHPatterns-checkpoint-4.txt 0
+logs/UMASHPatterns-checkpoint-5.txt 0
+logs/UMASHLift-checkpoint-1.txt 0
+logs/UMASHLift-checkpoint-2.txt 1
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ProvenHashes/UMASHMaskCertificate.lean:4096:22: This simp argument is unused:
+  ← List.toFinset_append
+
+Hint: Omit it from the simp argument list.
+  simp only [h1020, ← L̵i̵s̵t̵.̵t̵o̵F̵i̵n̵s̵e̵t̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵←̵ ̵list_toFinset_map]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ProvenHashes/UMASHMaskCertificate.lean:4104:22: This simp argument is unused:
+  ← List.toFinset_append
+
+Hint: Omit it from the simp argument list.
+  simp only [h1022, ← L̵i̵s̵t̵.̵t̵o̵F̵i̵n̵s̵e̵t̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵←̵ ̵list_toFinset_map]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ProvenHashes/UMASHMaskCertificate.lean:4112:22: This simp argument is unused:
+  ← List.toFinset_append
+
+Hint: Omit it from the simp argument list.
+  simp only [h1024, ← L̵i̵s̵t̵.̵t̵o̵F̵i̵n̵s̵e̵t̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵←̵ ̵list_toFinset_map]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ProvenHashes/UMASHMaskCertificate.lean:4120:22: This simp argument is unused:
+  ← List.toFinset_append
+
+Hint: Omit it from the simp argument list.
+  simp only [h1026, ← L̵i̵s̵t̵.̵t̵o̵F̵i̵n̵s̵e̵t̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵←̵ ̵list_toFinset_map]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ProvenHashes/UMASHMaskCertificate.lean:4128:22: This simp argument is unused:
+  ← List.toFinset_append
+
+Hint: Omit it from the simp argument list.
+  simp only [h1028, ← L̵i̵s̵t̵.̵t̵o̵F̵i̵n̵s̵e̵t̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵←̵ ̵list_toFinset_map]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ProvenHashes/UMASHMaskCertificate.lean:4136:22: This simp argument is unused:
+  ← List.toFinset_append
+
+Hint: Omit it from the simp argument list.
+  simp only [h1030, ← L̵i̵s̵t̵.̵t̵o̵F̵i̵n̵s̵e̵t̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵←̵ ̵list_toFinset_map]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ProvenHashes/UMASHMaskCertificate.lean:4144:22: This simp argument is unused:
+  ← List.toFinset_append
+
+Hint: Omit it from the simp argument list.
+  simp only [h1032, ← L̵i̵s̵t̵.̵t̵o̵F̵i̵n̵s̵e̵t̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵←̵ ̵list_toFinset_map]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ProvenHashes/UMASHMaskCertificate.lean:4152:22: This simp argument is unused:
+  ← List.toFinset_append
+
+Hint: Omit it from the simp argument list.
+  simp only [h1034, ← L̵i̵s̵t̵.̵t̵o̵F̵i̵n̵s̵e̵t̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵←̵ ̵list_toFinset_map]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ProvenHashes/UMASHMaskCertificate.lean:4160:22: This simp argument is unused:
+  ← List.toFinset_append
+
+Hint: Omit it from the simp argument list.
+  simp only [h1037, ← L̵i̵s̵t̵.̵t̵o̵F̵i̵n̵s̵e̵t̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵←̵ ̵list_toFinset_map]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ProvenHashes/UMASHMaskCertificate.lean:4164:22: This simp argument is unused:
+  ← List.toFinset_append
+
+Hint: Omit it from the simp argument list.
+  simp only [h1038, ← L̵i̵s̵t̵.̵t̵o̵F̵i̵n̵s̵e̵t̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵←̵ ̵list_toFinset_map]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ProvenHashes/UMASHMaskCertificate.lean:4168:22: This simp argument is unused:
+  ← List.toFinset_append
+
+Hint: Omit it from the simp argument list.
+  simp only [h1039, ← L̵i̵s̵t̵.̵t̵o̵F̵i̵n̵s̵e̵t̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵←̵ ̵list_toFinset_map]
+
+Note: Simp arguments with `←` have the additional effect of removing the other direction from the simp set, even if the simp argument itself is unused. If the hint above does not work, try replacing `←` with `-` to only get that effect and silence this warning.
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ProvenHashes/UMASHMaskCertificate.lean:4175:33: This simp argument is unused:
+  Finset.empty_union
+
+Hint: Omit it from the simp argument list.
+  simp only [Finset.union_empty, F̵i̵n̵s̵e̵t̵.̵e̵m̵p̵t̵y̵_̵u̵n̵i̵o̵n̵,̵ ̵← List.toFinset_append]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✖ [7361/7361] Building ProvenHashes.UMASHLift (3.5s)
+trace: .> LEAN_PATH=/home/thomas-ahle/agents/lean-hash/lean/.lake/packages/Cli/.lake/build/lib/lean:/home/thomas-ahle/agents/lean-hash/lean/.lake/packages/batteries/.lake/build/lib/lean:/home/thomas-ahle/agents/lean-hash/lean/.lake/packages/Qq/.lake/build/lib/lean:/home/thomas-ahle/agents/lean-hash/lean/.lake/packages/aesop/.lake/build/lib/lean:/home/thomas-ahle/agents/lean-hash/lean/.lake/packages/proofwidgets/.lake/build/lib/lean:/home/thomas-ahle/agents/lean-hash/lean/.lake/packages/importGraph/.lake/build/lib/lean:/home/thomas-ahle/agents/lean-hash/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean:/home/thomas-ahle/agents/lean-hash/lean/.lake/packages/plausible/.lake/build/lib/lean:/home/thomas-ahle/agents/lean-hash/lean/.lake/packages/mathlib/.lake/build/lib/lean:/home/thomas-ahle/agents/lean-umash-corrected/.lake/build/lib/lean /home/thomas-ahle/agents/lean-hash/.elan/toolchains/leanprover--lean4---v4.24.0/bin/lean /home/thomas-ahle/agents/lean-umash-corrected/ProvenHashes/UMASHLift.lean -o /home/thomas-ahle/agents/lean-umash-corrected/.lake/build/lib/lean/ProvenHashes/UMASHLift.olean -i /home/thomas-ahle/agents/lean-umash-corrected/.lake/build/lib/lean/ProvenHashes/UMASHLift.ilean -c /home/thomas-ahle/agents/lean-umash-corrected/.lake/build/ir/ProvenHashes/UMASHLift.c --setup /home/thomas-ahle/agents/lean-umash-corrected/.lake/build/ir/ProvenHashes/UMASHLift.setup.json --json
+error: ProvenHashes/UMASHLift.lean:34:2: Tactic `simp` failed with a nested error:
+maximum recursion depth has been reached
+use `set_option maxRecDepth <num>` to increase limit
+use `set_option diagnostics true` to get diagnostic information
+error: Lean exited with code 1
+Some required targets logged failures:
+- ProvenHashes.UMASHLift
+error: build failed
