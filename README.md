@@ -20,4 +20,4 @@ multipliers, full outputs of the C architecture. The Salsa20 key derivation and 
 ENH-only closure (`ProvenHashes.UMASH.certified_all_pairs64`, `open_enh_only_sharp`; audit in `AuditAll.txt`); the later proofs are
 paper proofs with certificates and independent review, and their formalization is in progress.
 
-A consolidated write-up is in preparation.
+Consolidated write-up: [`paper/umash_bounds.pdf`](paper/umash_bounds.pdf) (LaTeX source alongside), "Collision bounds for UMASH: closing the projection gap", 20 pages.
